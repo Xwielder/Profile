@@ -1,0 +1,380 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   body {
+    background-color:rgb(2, 49, 49);
+    font-family: Verdana;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  img{
+    max-height: auto;
+    width: 800px;
+  }
+  .portrait{
+    max-width: auto;
+    max-width: 300px;
+  }
+  nav{
+    height: 40px;
+    width: 100%;
+   /* background-color: rgb(75, 137, 190);*/
+    margin-bottom: 20px;
+  }
+  #home_ban{
+    background-position: center;
+
+    height: 200px;
+    background-image: url(dark_fores.jpg);
+  }
+  .menu{
+    display: flex;
+    font-weight: 900;
+    line-height: 1.1em;
+  }
+
+  .M_boxs{
+    list-style: none;
+    display: flex;
+    float: left;
+    line-height: 40px;
+  }
+  .M_text{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 0 15px;
+    color: rgb(165, 165, 165);
+    transition: .3s;
+  }
+  .M_text:hover{
+    color: aliceblue;
+    transition: .3s;
+  }
+  p{
+    color: aliceblue;
+  }
+  h1{
+    color: antiquewhite;
+  }
+  .center_text{
+    line-height: 30px;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 1080px;
+    height: auto;
+    text-align: center;
+  }
+  #content_boxs{
+    flex-direction: column;
+  }
+  .main_paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    margin:4%;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .tab{
+    color: aliceblue;
+    width: 600px;
+    text-align: center;
+    margin: 1%;
+    text-decoration: none;
+    padding:5px;
+    height: 80px;
+    font-size: 50px;
+    object-position: 50% 50%;
+    line-height: 1.5em;
+    transition: .3s;
+    background-size: cover;
+    background-position: center;
+  }
+  .tab:hover{
+    color: wheat ;
+    transition: .3s;
+    zoom: 1;
+  }
+  #tab1{
+    background-image: url(before_after_model.png);
+  }
+  #tab2{
+    background-image: url(Screenshot_2024-03-03_211849.png);
+  }
+  #tab3{
+    background-image: url(my_portrait.jpg);
+  }
+  #tab4{
+    background-image: url(Screenshot_2024-03-03_211849.png);
+  }
+  #big_tabs{
+    text-decoration: none;
+    color: aliceblue;
+    width: 700px;
+    text-align: center;
+    margin: 1%;
+    padding:5px;
+    height: 80px;
+    font-size: 50px;
+    object-position: 50% 50%;
+    line-height: 1.5em;
+  }
+  #box1{
+    flex: 1 0 00px;
+    float: left;
+  }
+  #box2{
+    float: left;
+  }
+  #box3{
+
+   flex: 1 0 1000px;
+      float: left;
+  }
+  #box4{
+      float: left;
+      width:32%;
+      height: 200px
+  }
+  #box5{
+      float: left; 
+  }
+  .box{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 1%;
+    padding:10px;
+    background-size: contain;
+  }
+  .imgfront{
+    background-image: url(close_me.jpg);
+    background-size: 100%;
+    height:450px ;
+  }
+  .web_box_empty{
+       height:700px;
+  }
+  .web_box{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+     background-color: rgb(2, 49, 49);
+     height:500px;
+  }
+  @media only screen and (min-width: 768px) {
+    
+    .wrapper {
+
+      width: 100%;
+    }
+    nav{
+      height: 40px;
+      width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0;
+      padding-right: 0%;
+    }
+    .menu{
+      display: flex;
+      justify-content: center;
+      }
+  
+    .M_boxs{
+      list-style: none;
+      display: flex;
+      float: left;
+      line-height: 40px;
+    }
+    .M_text{
+      text-decoration: none;
+      font-size: 14px;
+      font-family: Verdana;
+      padding: 0 15px;
+     
+    }
+    .M_text:hover{
+      color: aliceblue;
+    }
+    .banner{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .heading{
+      display: flex;
+      margin-left: 6%;
+      margin-top: 10px;
+    }
+  
+    .main_paragraph{
+      display: flex;
+      flex-wrap: wrap;
+      margin:4%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #box1{
+      flex: 1 0 200px;
+  
+      float: left;
+    }
+    #box2{
+      flex: 1 0 200px;
+      float: left;
+    }
+    #box3{
+      height: 200px; 
+     flex: 1 0 200px;
+        float: left;
+    }
+    #box4{
+        float: left;
+        width:32%;
+        height: 200px
+    }
+    #box5{
+        float: left; 
+    }
+    .web_box_empty{
+         height:700px;
+    }
+    .web_box{
+      display: flex;
+       justify-content: center;
+      align-items: center;
+       height:600px;
+    }
+
+  }
+  @media only screen and (min-width: 1000px) {
+    
+  .wrapper {
+    margin: 0 auto ;
+    width: 1000px;
+  }
+  nav{
+    height: 40px;
+    width: 100%;    
+   margin-bottom: 10px;
+  }
+  .menu{
+  display: flex;
+
+  }
+
+  .M_boxs{
+    list-style: none;
+    display: flex;
+    float: left;
+    line-height: 40px;
+  }
+  .M_text{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana;
+    padding: 0 40px;
+  }
+  .M_text:hover{
+    color: aliceblue;
+  }
+
+  .main_paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0%;
+    justify-content: center;
+    align-items: center;
+    width: 58.3333%;
+  }
+  .main_paragraph2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    width: 100%;
+    height: 500px;
+  }
+  .imgfront{
+    white-space: normal;
+    text-wrap: wrap;
+  }
+
+  #box1{
+    flex: 1 0 200px;
+    float: left;
+    word-wrap: break-word;
+    text-align: center;
+    white-space: normal;
+  }
+  #box2{
+    flex: 1 0 200px;
+    float: left;
+  }
+  #box3{
+    height: 200px; 
+   flex: 1 0 200px;
+      float: left;
+  }
+  #box4{
+      float: left;
+      width:32%;
+      height: 200px;
+  }
+  #box5{
+      float: left; 
+  }
+
+  .web_box_empty{
+       height:700px;
+  }
+  .web_box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height:auto;
+  }
+  footer{
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue;
+    font-size: 10px;
+  }
+  .foot1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 32px;
+    line-height: 1.5em;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(26, 58, 59);
+  }
+  .foot2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 32px;
+    line-height: 1.5em;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(71, 96, 97);
+  }
+  .prefoot{
+    text-align: center;
+    align-items: center;
+  }
+  }
